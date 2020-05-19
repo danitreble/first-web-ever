@@ -56,6 +56,7 @@ figcaption {
 h3 {
   font-size: 1.872em;
   margin: 50px 0;
+  text-align: center;
 }
 
 /* Need to solve spacing between h3 and ul */
@@ -68,6 +69,24 @@ ul {
 
 li {
   margin: 16px 0;
+  font-size: 1.6em;
+}
+
+li:first-of-type {
+  margin-top: 0px;
+}
+
+blockquote {
+  margin-bottom: 50px;
+}
+
+.blockquote__paragraph {
+  text-align: left;
+  font-style: italic;
+  margin-top: 0;
+}
+
+cite {
   font-size: 1.6em;
 }
 
