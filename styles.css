@@ -11,7 +11,7 @@ body {
   line-height: 1.5;
 }
 
-main {
+.tribute-index {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,18 +20,19 @@ main {
   background-color: #eee;
 }
 
-.header_title {
-  margin-top: 23.45px;
+.tribute__title {
+  margin-top: 24px;
   font-size: 3.5em;
 }
 
-p {
+
+.tribute__subtitle {
   margin: 16px 0;
   font-size: 1.6em;
   text-align: center;
 }
 
-figure {
+.img-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -41,11 +42,11 @@ figure {
   padding: 10px;
  }
 
-.figure__img {
+.img-container__image {
   width: 100%;
 }
 
-figcaption {
+.img-container__caption {
   margin-top: 15px;
   margin-bottom: 5px;
 
@@ -53,40 +54,48 @@ figcaption {
   font-size: 1.4em;
 }
 
-h3 {
-  font-size: 1.872em;
+.history-list__title {
+  font-size: 1.8em;
   margin: 50px 0;
   text-align: center;
 }
 
 /* Need to solve spacing between h3 and ul */
 
-ul {
+.history-list {
   list-style-type: disc;
   margin-bottom: 50px;
   padding-left: 40px;
 }
 
-li {
+.history-list__item {
   margin: 16px 0;
   font-size: 1.6em;
 }
 
-li:first-of-type {
+.history-list--first-item {
   margin-top: 0px;
 }
 
-blockquote {
+.quote {
   margin-bottom: 50px;
 }
 
-.blockquote__paragraph {
+.quote__paragraph {
   text-align: left;
   font-style: italic;
   margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 1.6em;
 }
 
-cite {
+.quote__author {
   font-size: 1.6em;
+}
+
+.footer__text {
+  font-size: 1.9em;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
